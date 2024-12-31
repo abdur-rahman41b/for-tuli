@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+}
+
+.hero-section {
+  /* min-height: 100vh; */
+  background-color: #F99501;
+  background-image: url(i\ love\ you\ tuli\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#jhalar {
+  width: 250px;
+}
+
+.hero-section p {
+  color: rgb(241, 219, 249);
+  margin-top: -130px;
+  font-size: 2.2rem;
+  font-family: "Salsa", serif;
+  max-width: 420px;
+  margin-left: 15rem;
+}
+
+.hero-section audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+background-color: #f3cea7;
+color: #000;
+}
+
+.hero-section .music {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  background-color: #f3cea7;
+  max-width: 460px;
+  padding-left: 13px;
+
+  border-radius: 22px;
+  margin-left: 14rem;
+
+}
+
+.hero-section span {
+  font-family: "Satisfy", serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.first-tuli, .second-tuli {
+  visibility: hidden;
+}
+
+/* .first-tuli {
+  max-width: 330px;
+  position: relative;
+  top: 60%;
+  height: 30%;
+  vertical-align:right;
+  margin-right: 2%;
+}
+.second-tuli {
+  max-width: 330px;
+  position: relative;
+  top:50%;
+  height: 50%;
+  left: 0;
+} */
+
+
+@media (max-width: 840px) {
+
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+  }
+  .first-tuli, .second-tuli {
+    display: inline-block;
+    margin-left: auto;
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .first-tuli, .second-tuli {
+    visibility: hidden;
+  }
+  .play-time-icon {
+    display: none;
+  }
+
+  #jhalar {
+    width: 150px;
+    margin-bottom: 0;
+  }
+
+  .hero-section p {
+    margin-left: 1rem;
+    margin-top: 0;
+    font-size: 32px;
+  }
+
+  .hero-section .music {
+    margin: 0 1rem;
+    max-width: 410px;
+  }
+
+}
+
+
+.divider {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;  /* to center the divider */
+  gap: 12px; /* to create gap between items */
+  padding: 1em 0;
+}
+
+.line {
+  height: 3px;
+  width: 400px;
+  background-color: #f3cea7;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #f3cea7;
+  flex-shrink: 0; /* to fix the oval shape into circle */
+}
+
+
+.second-section {
+  background-color: #F99501;
+  /* padding-top: 10px; */
+}
+
+.second-section img {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
+.wish {
+  margin: 1rem 0 0 0;
+  font-family: "Style Script", serif;
+  font-size: 2rem;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.second-section video {
+  width: 100%;
+}
+
+/* 
+
+.style-script-regular {
+  font-family: "Style Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ */
+
+
+/* .third-section {
+  background-image: url(wpa.jpg);
+}
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+}
+
+ */
+
+
