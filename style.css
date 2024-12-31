@@ -157,7 +157,12 @@ color: #000;
 
 .second-section video {
   width: 100%;
+  max-width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 img, video {
   border-radius: 18px;
